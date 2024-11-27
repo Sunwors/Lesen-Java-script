@@ -77,7 +77,11 @@ let users = [
         status: true
     }
 ];
-debugger
-for (let i=2;i < users.length-1; i++) {
-console.log(users[i]);
+// debugger
+// for (let i=2;i < users.length-1; i++) {
+// console.log(users[i]);
+// }
+
+for (let i=0;i < users.length; i++) {
+    document.write(`<h3>user info - ${users[i].name}</h3>`);
 }
